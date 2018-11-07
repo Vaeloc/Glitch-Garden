@@ -29,7 +29,7 @@ public class LevelLoader : MonoBehaviour {
 
     public void LoadNextScene()
     {
-        SceneManager.LoadScene(currentSceneIndex++);
+        SceneManager.LoadScene(currentSceneIndex + 1);
     }
 	
 }
